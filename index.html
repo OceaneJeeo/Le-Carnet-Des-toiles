@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html lang="fr"> 
+    <head> <meta charset="UTF-8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <title>Le carnet des étoiles</title> <link rel="stylesheet" href="style.css" /> 
+    </head> 
+    <body> 
+    <div id="epilogue-choice" class="hidden"> <div class="popup-content"> 
+        <h2>🌌 Le carnet est complet</h2> 
+        <p>Tu as retrouvé les fragments de ton histoire.<br />Une dernière étoile scintille, t'offrant deux chemins...</p> 
+        <button id="stay-btn">🌙 Rester dans le ciel</button> 
+        <button id="return-btn">🌍 Redescendre sur Terre</button> 
+    </div> 
+    </div> 
+    <div id="epilogue-result" class="hidden"> 
+        <div class="popup-content"> 
+            <h2 id="result-title"></h2> 
+            <p id="result-text"></p> 
+            <button id="result-close">Fermer</button> 
+        </div> 
+    </div>
+    <div id="intro-popup"> 
+        <div class="popup-content"> 
+            <h2>🌌 Bienvenue, voyageuse céleste</h2> 
+            <p> Tu as perdu la mémoire. Le ciel est ton carnet.
+                <br /> Chaque étoile contient un fragment de ton histoire.
+                <br /> Trouve-les dans le bon ordre, écoute leur murmure, et reconstruis ton passé oublié. 
+            </p> 
+            <button id="start-btn">Commencer l’exploration</button> 
+        </div> 
+    </div> 
+    <h1>Le carnet des étoiles</h1> 
+    <div id="sky"> 
+        <div class="star" data-id="1" style="top: 20%; left: 30%;"></div> 
+        <div class="star locked" data-id="2" style="top: 50%; left: 60%;"></div> 
+        <div class="star locked" data-id="3" style="top: 70%; left: 40%;"></div>
+        <div class="star locked" data-id="4" style="top: 30%; left: 70%;"></div> 
+        <div class="star locked" data-id="5" style="top: 60%; left: 20%;"></div> 
+        <div class="star locked" data-id="6" style="top: 80%; left: 50%;"></div> 
+        <div class="star locked" data-id="7" style="top: 40%; left: 50%;"></div> 
+    </div> 
+    <div id="carnet" class="hidden"> 
+        <button id="close">Fermer</button> 
+        <div id="content"></div> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
