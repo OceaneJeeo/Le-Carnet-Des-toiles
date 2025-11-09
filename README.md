@@ -30,6 +30,6 @@
 
 # 🧭 Lancer le projet
 
-1. ##### Cloner le dépôt : git clone https://github.com/tonpseudo/le-carnet-des-étoiles.git
+1. ##### Cloner le dépôt : [git clone https://github.com/tonpseudo/le-carnet-des-étoiles.git](https://github.com/OceaneJeeo/Le-Carnet-Des-toiles.git)
 2. ##### Ouvrir index.html dans un navigateur moderne
 3. ##### Explorer, choisir, contempler…
